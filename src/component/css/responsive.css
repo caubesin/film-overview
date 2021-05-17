@@ -1,0 +1,150 @@
+@media only screen and (max-width: 1300px) {
+    .search {
+        width: 70vw !important;
+    }
+    .search-input input {
+        font-size: 17px;
+    }
+    .main-cart {
+        width: 70vw;
+        height: 650px;
+    }
+    .video {
+        width: 80vw;
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .search {
+        width: 85vw !important;
+    }
+    .search-input input {
+        font-size: 17px;
+    }
+    .main-cart {
+        width: 85%;
+        height: 650px;
+    }
+}
+
+@media only screen and (max-width: 748px) {
+    .search {
+        width: 90vw !important;
+        margin-bottom: 30px;
+    }
+    .search-input input {
+        font-size: 17px;
+    }
+    .main-cart {
+        width: 90%;
+        height: 550px;
+    }
+    .cart-info h1 {
+        font-size: 35px;
+        margin: 5px 0;
+    }
+    .release-details-item {
+        font-size: 15px;
+        margin: 2px;
+    }
+    .meta-data {
+        font-size: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .search {
+        width: 95vw !important;
+        margin-bottom: 15px;
+    }
+    .search-input input {
+        font-size: 14px;
+    }
+    .main-cart {
+        width: 95vw;
+        height: 400px;
+    }
+    .cart-info {
+        padding: 5px 10px;
+    }
+    .cart-info h1 {
+        font-size: 25px;
+        margin: 3px 0;
+        overflow: hidden;
+        text-overflow: clip;
+        height: auto;
+        line-height: 30px;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+    .tagline {
+        font-size: 13px;
+        text-align: left;
+        overflow: hidden;
+        text-overflow: clip;
+        height: auto;
+        line-height: 15px;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+    .overview {
+        font-size: 11px;
+        text-align: left;
+        overflow: hidden;
+        text-overflow: clip;
+        height: 45px;
+        line-height: 15px;
+        -webkit-line-clamp: 3;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        margin-bottom: 5px;
+    }
+    .genre-list {
+        font-size: 14px;
+        text-align: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 15px;
+        line-height: 15px;
+        -webkit-line-clamp: 1;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+    .production-list {
+        font-size: 12px;
+        overflow: hidden;
+        text-overflow: clip;
+        height: 30px;
+        line-height: 15px;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+    .release-details-item {
+        font-size: 11px;
+        margin: 2px;
+    }
+    .meta-data {
+        font-size: 13px;
+    }
+    .video {
+        width: 100vw;
+        height: 60vh;
+    }
+    .trailer-btn {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .trailer-btn button {
+        font-size:13px;
+    }
+    .trailer-btn button::before {
+        font-size:25px;
+        margin-right: 10px;
+    }
+}

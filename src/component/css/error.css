@@ -1,0 +1,57 @@
+.error-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    z-index: 999999999;
+}
+
+.error-img img {
+   width: 50vw;
+   height: 60vh;
+}
+
+.error-img h1 {
+    color: white;
+    font-size: 2vw;
+    font-weight: 300;
+}
+
+.animated {
+    animation-duration: 4s;
+    animation-fill-mode: both;
+  }
+  
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(-0.5%);
+    }
+    25% {
+        transform: translateY(0.5%)
+    }
+    50% {
+        transform: translateY(-0.5%);
+    }
+    75% {
+        transform: translateY(0.5%);
+    }
+    100% {
+        transform: translateY(-0.5%);
+    }
+}
+
+.animate {
+    -webkit-animation-name: animate;
+    animation-name: animate;
+}

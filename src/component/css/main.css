@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Font Awesome Light';
+    src: url(../fontawesome-5-pro-master/webfonts/fa-light-300.woff2);
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url(../fontawesome-5-pro-master/webfonts/fa-solid-900.woff2);
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
+:root {
+    --color-font: white;
+    --color-font-special: #00FC87;
+    --title-font:'Roboto', sans-serif;
+    --special-font: 'Quicksand', sans-serif;
+    --font: 'Poppins', sans-serif;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.main::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.85) 15%,rgba(0,0,0,.2) 40%,#000 90%);
+}
