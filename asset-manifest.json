@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/film-overview/static/css/main.7103020f.chunk.css",
+    "main.js": "/film-overview/static/js/main.b90b650f.chunk.js",
+    "main.js.map": "/film-overview/static/js/main.b90b650f.chunk.js.map",
+    "runtime-main.js": "/film-overview/static/js/runtime-main.644dd4df.js",
+    "runtime-main.js.map": "/film-overview/static/js/runtime-main.644dd4df.js.map",
+    "static/js/2.4026c6b8.chunk.js": "/film-overview/static/js/2.4026c6b8.chunk.js",
+    "static/js/2.4026c6b8.chunk.js.map": "/film-overview/static/js/2.4026c6b8.chunk.js.map",
+    "static/js/3.f3aca93e.chunk.js": "/film-overview/static/js/3.f3aca93e.chunk.js",
+    "static/js/3.f3aca93e.chunk.js.map": "/film-overview/static/js/3.f3aca93e.chunk.js.map",
+    "index.html": "/film-overview/index.html",
+    "static/css/main.7103020f.chunk.css.map": "/film-overview/static/css/main.7103020f.chunk.css.map",
+    "static/js/2.4026c6b8.chunk.js.LICENSE.txt": "/film-overview/static/js/2.4026c6b8.chunk.js.LICENSE.txt",
+    "static/media/defaultCartPoster.f289f1f4.gif": "/film-overview/static/media/defaultCartPoster.f289f1f4.gif",
+    "static/media/err.0b7d80f7.gif": "/film-overview/static/media/err.0b7d80f7.gif",
+    "static/media/main.css": "/film-overview/static/media/fa-solid-900.7d49f26e.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.644dd4df.js",
+    "static/js/2.4026c6b8.chunk.js",
+    "static/css/main.7103020f.chunk.css",
+    "static/js/main.b90b650f.chunk.js"
+  ]
+}
